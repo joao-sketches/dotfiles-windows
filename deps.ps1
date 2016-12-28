@@ -23,19 +23,22 @@ cinst wput
 
 # browsers
 cinst GoogleChrome
-cinst GoogleChrome.Canary
 cinst Firefox
-cinst Opera
+
 
 # dev tools and frameworks
 cinst atom
 cinst GitHubForWindows
-cinst hg
 cinst Fiddler4
 cinst nodejs.install
 cinst ruby
 cinst vim
 cinst winmerge
+cinst elixir
+cinst 7zip
+cinst vlc
+cinst jdk8
+cinst thunderbird
 
 # other
 #cinst wincommandpaste # Copy/Paste is supported natively in Win10
@@ -81,19 +84,15 @@ if (which webpicmd) {
 
 ### Node Packages
 if (which npm) {
-    npm install -g azure-cli
     npm install -g babel-cli
     npm install -g bower
-    npm install -g coffee-script
     npm install -g conventional-changelog
-    npm install -g grunt-cli
-    npm install -g gulp
-    npm install -g less
-    npm install -g lineman
     npm install -g mocha
     npm install -g node-inspector
     npm install -g node-sass
     npm install -g yo
+    npm install -g xo
+    npm install -g brunch
 }
 
 
