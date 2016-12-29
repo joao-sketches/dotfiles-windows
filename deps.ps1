@@ -15,10 +15,9 @@ if ((which cinst) -eq $null) {
 }
 
 # system and cli
-#cinst curl #`curl` comes with GH4W
+cinst Gow
 cinst nuget.commandline
 cinst webpi
-cinst wget
 cinst wput
 
 # browsers
@@ -39,6 +38,17 @@ cinst 7zip
 cinst vlc
 cinst jdk8
 cinst thunderbird
+cinst git.install
+cinst cmder -pre
+cinst poshgit
+cinst ruby
+cinst ruby.devkit
+cinst python
+cinst pip
+cinst easy.install
+cinst 7zip.install
+cinst sysinternals
+cinst DotNet3.5
 
 # other
 #cinst wincommandpaste # Copy/Paste is supported natively in Win10
